@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>University of Marwaad</title>
+		<link rel="icon" type="image/png" sizes="24x24" src="photo/clogo.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width ,initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+		<!--special link-->
+		
+		<!--w3schools-->
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--w3schools end-->
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		 <!-- Basic stylesheet -->
+		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+		 
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+	
+
+		<link href="//fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin-ext,cyrillic-ext,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+		<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+	
+		<script>
+		$(document).ready(function() {
+			
+			$("#owl").owlCarousel({
+		 
+			  //navigation : true, // Show next and prev buttons
+		 
+			  slideSpeed : 300,
+			  paginationSpeed : 400,
+		 
+			  items : 1, 
+			  itemsDesktop : false,
+			  itemsDesktopSmall : false,
+			  itemsTablet: false,
+			  itemsMobile : false
+			  
+		  });
+		 
+		});
+		
+		</script>
+		
+		<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			color:  #013074;
+		}	
+		.s{
+		color: white;
+		  margin-bottom: 0;
+		  background-color: #013074;
+		  border: 0;
+		  font-size: 11px !important;
+		  opacity: 0.8;
+		}
+		.s li a:hover {
+		  color: white !important;
+		}
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		.dropdown-content a:hover {background-color: white;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: ;}
+		 
+		
+		.links,.table{
+			background-color: white;
+		}
+		.importent-links{
+			background-color: #013074;
+			color: white;
+		}
+		.importent-links table:hover{
+			background-color:white;
+			color: black;
+		}
+		.dropdown-content{
+			background-color: lightblue;
+		}
+		.as{
+			background-color:#013074;
+			color: white;
+		}
+		.divider{
+			text-align: center;
+			width: 100px;
+			border: 2px solid #013074;
+			border-radius: 2px;
+		}
+		.d{
+			hr-align: center;
+			width: 200px;
+			border: 1px solid #013074;
+			border-radius: 1px;
+		}
+		
+		}
+		.importent-links table{
+			background-color: white;
+			color: black;
+		}
+		.event table{
+			background-color: #013074;
+			color: white;
+			opacity: 1;
+		}
+		.event a,.media a{
+			color:#013074;
+		}
+		
+		.w3-container h2{
+			font-size: 38px;
+		}
+		.w3-container p{
+			font-size: 28px;
+		}
+		</style>
+	</head>
+	
+	<body id="home" class="w3-light-grey" data-spy="scroll" data-target=".navbar" data-offset="50" >
+		<section class="navbar-small" >
+			<nav class="navbar s navbar-default ">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Nav1">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="Nav1">
+					<ul class="nav navbar-nav navbar-left w3-small">
+						<li><a href="#">Faculty</a></li>
+						<li><a href="#">Student</a></li>
+						<li><a href="#">Directory</a></li>
+						<li><a href="#">Siteup</a></li>
+						<li><a href="#">User Guide</a></li>
+						<li><a href="#">Screen Reader</a></li>
+						
+					</ul>
+					<ul class="nav navbar-nav navbar-right w3-small">
+						<li><a href="#" onclick="document.getElementById('id01').style.display='block'"><span class="glyphicon glyphicon-user"></span> logIn</li>
+					</ul> 
+				</div>
+			</nav>
+		</section>
+		
+		<!--login-->
+		<div id="id01" class="w3-modal  w3-animate-opacity">
+			<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+				<header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+					<center><h2><img src="photo/u.jpg" style="height:40px; width:40px;" class="img-responsive">University of Marwad</h2></center>
+				</header>
+				<form class="w3-container" >
+					<div class="w3-section">
+					  
+					  <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter UserId" name="eno" required>
+					  
+					  <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+					  
+					  <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+					  
+					</div>
+				</form>
+
+			  	<div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+					<span class="w3-left w3-padding w3-hide-small"><a href="#">New Student</a></span>
+					<span class="w3-right w3-padding w3-hide-small"><a href="#">Forgot password?</a></span>
+				</div>
+
+			</div>
+		</div>
+			<script>
+				// Get the modal
+				var modal = document.getElementById('id01');
+				
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				  if (event.target == modal) {
+					modal.style.display = "none";
+				  }
+				}
+				
+			</script>
+		<!--login end-->
+		
+		<section class="logo" style="padding:20px;background-color: white;">
+			<div class="container-fluid text-center">
+				<center>
+					<img src="photo/logo.jpg" alt="Snow" class="img-responsive" style="height:250px; width:500px;">
+					
+						
+				</center>
+			</div>
+		</section>
+		
+		<section class="navbar-big" style="word-spacing: 8px;font-size:20px;">
+			<div class="container-fluid navbar">
+				<nav class="navbar navbar-default navbar-fixed-position ">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Nav2">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="Nav2">
+					<ul class="nav navbar-nav navbar-left " >
+						<li><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle dropbtn" > <span class="nav-label">Institute</span> <span class="caret"></span></a>
+							<ul class="dropdown-content dropdown-menu">
+								<li><a href="#">About</a> </li>
+                                <li><a href="#">Location</a></li>
+                                <li><a href="#">Campus</a> </li>
+                                <li><a href="#">Contact</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle dropbtn" > <span class="nav-label">Administration</span> <span class="caret"></span></a>
+							<ul class="dropdown-content dropdown-menu">
+								<li><a href="#">B.O.G.</a></li>
+                                <li><a href="#">Principal</a></li>
+                                <li><a href="#">Registrar</a></li>
+                                <li><a href="#">C.C.A.</a></li>
+                                <li><a href="#">Account</a></li>
+                                <li><a href="#">Proctor</a></li>
+                                <li><a href="#">Exam</a></li>
+                                <li><a href="#">Estate</a></li>
+                                <li><a href="#">Website</a></li>
+								<li><a href="#">Start Up Cell</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle dropbtn" > <span class="nav-label">Department</span> <span class="caret"></span></a>
+							<div class="dropdown-content dropdown-menu" style="width:500px;">
+								<div class="row">
+									<div class="col-sm-6 ">
+										<h5>&nbsp; Engineering</h5><hr>
+										<ul class="list-unstyled offset-lg-top-20" >
+											<li><a href="#">Ceramic Engineering</a></li>
+                                            <li><a href="#">Civil Engineering</a></li>
+                                            <li><a href="#">Computer Science &amp; Engineering</a></li>
+                                            <li><a href="#">Electrical Engineering</a></li>
+                                            <li><a href="#">Electronics &amp; Communicatin Engineering</a></li>
+                                            <li><a href="#">Mechanical Engineering</a></li>
+										</ul>
+									</div>
+								
+									<div class="col-sm-6">
+										<h5> Other</h5><hr>
+										<ul class="list-unstyled offset-lg-top-20" >
+											<li><a href="#">M.B.A.</a></li>
+                                            <li><a href="#">Physics</a></li>
+                                            <li><a href="#">Chemistry</a></li>
+                                            <li><a href="#">Maths</a></li>
+                                            <li><a href="#">English &amp; Humanities</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle dropbtn" > <span class="nav-label">Campus</span> <span class="caret"></span></a>
+							<ul class="dropdown-content dropdown-menu">
+								<li><a href="#">Hostels</a></li>
+                                <li><a href="#">Facilities</a></li>
+                                <li><a href="#">N.C.C.</a></li>
+                                <li><a href="#">N.S.S.</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle dropbtn" > <span class="nav-label">Student</span> <span class="caret"></span></a>
+							<ul class="dropdown-content dropdown-menu">
+								<li><a href="#">E.D.C.</a></li>
+                                <li><a href="#">I.I.I.P.</a></li>
+                                <li><a href="#">Academic Programs</a></li>
+                                <li><a href="#">Admission</a></li>
+                                <li><a href="#" target="_blank">Useful Websites</a></li>
+                                <li><a href="#" target="_blank">Training &amp; Placement Cell</a></li>
+                                <li><a href="#" target="_blank">Campustalks</a></li>
+							</ul>
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle dropbtn" > <span class="nav-label">Notice & News</span> <span class="caret"></span></a>
+							<ul class="dropdown-content dropdown-menu">
+								<li><a href="#">Academic Notices</a></li>
+								<li><a href="#">Tenders</a></li>
+								<li><a href="#">Scholarships</a></li>
+                                <li><a href="#">Media Corner</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Academic Calendar</a></li>
+                                <li><a href="#">Time Table</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">TEQIP</a></li>
+						<li><a href="#">Developers</a></li>
+						<li><a href="#"></a></li>
+					</ul>
+					
+				</div>
+			</nav>
+			</div>
+			
+		</section>
+		
+			<div id="carousel" class="carousel slide w3-container" data-target="carousel" >
+				<ol class="carousel-indicators w3-display-bottomleft " style=" margin:20px 20px 60px 800px;">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1" ></li>
+					<li data-target="#carousel" data-slide-to="2" ></li>
+					<li data-target="#carousel" data-slide-to="3" ></li>
+				</ol>
+				
+				<div  class="carousel-inner " role="listbox">
+					<div class="item active" >
+						 <div class="w3-display-container w3-text-white">
+							<img src="photo/college1.jpg" class="img-responsive" width="100%">
+							<div class="w3-container w3-display-bottomleft w3-animate-fading" style=" margin:200px 40px; ">
+								<h2>University of Marwaad</h2>
+								<p>This example does not work in Internet Explorer 9 and earlier versions.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="w3-display-container w3-text-white">
+							<img src="photo/college2.jpg" class="img-responsive " width="100%">
+							<div class="w3-container w3-display-bottomleft w3-animate-fading" style=" margin:200px 40px; ">
+								<h2>University of Marwaad</h2>
+								<p>This example does not work in Internet Explorer 9 and earlier versions.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="w3-display-container w3-text-white" >
+							<img src="photo/college3.jpg" class="img-responsive" width="100%">
+							<div class="w3-container w3-display-bottomleft w3-animate-fading" style=" margin:200px 40px; ">
+								<h2>University of Marwaad</h2>
+								<p>This example does not work in Internet Explorer 9 and earlier versions.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="w3-display-container w3-text-white">
+							<img src="photo/college4.jpg" class="img-responsive" width="100%">
+							<div class="w3-container w3-display-bottomleft w3-animate-fading" style=" margin:200px 40px; ">
+								<h2>University of Marwaad</h2>
+								<p>This example does not work in Internet Explorer 9 and earlier versions.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+	
+		
+		<div class="container-fluid text-center" style="padding:20px;">
+			<h2><b>Latest Notice</b></h2>
+			<center><hr class="divider"></center>
+			
+			<div id="owl" class="owl-carousel owl-theme "> 
+				
+					<div class="row item">
+				
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>fee structur,demaind notice</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 20 july 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>yoga day</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 21 jun 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>mid-term</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 15 may 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>exam-date</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 1 april 2020</span></i></td></tr>
+							</table>
+						</div>
+					</div>
+				
+				
+				
+					<div class="row item">
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>fee structur,demaind notice</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 20 july 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>yoga day</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 21 jun 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>mid-term</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 15 may 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>exam-date</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 1 april 2020</span></i></td></tr>
+							</table>
+						</div>
+					</div>
+				
+				
+				
+					<div class="row item">
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>fee structur,demaind notice</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 20 july 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>yoga day</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 21 jun 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>mid-term</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 15 may 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>exam-date</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 1 april 2020</span></i></td></tr>
+							</table>
+						</div>
+					</div>
+					
+				
+				
+				
+				
+				
+			</div> 
+			<div class="offset-top-50 offset-lg-top-56 notice_button"><a href="#" class="btn btn-icon btn-icon-right btn-primary"><span class="icon fa-arrow-right"></span><span>View All Notices</span></a></div>
+			
+		</div>
+		
+		<br><section class="importent-links text-center" style="padding:20px;">
+			<div class="container-fluid" ><br>
+				<h2 ><b>Important Links</b></h2><br><br>
+				<div class="row">
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">
+							<tr><td><a href="#" target="_blank" class="importent-links w3-border w3-border-white ">pay college<br> fee</a></td></tr>
+						</table>
+					</div>
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">
+							<tr><td><a href="#" target="_blank" class="importent-links">pay exam <br> fee</a></td></tr>
+						</table>
+					</div>
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">
+							<tr><td><a href="#" target="_blank" class="importent-links">admit card</a></td></tr>
+						</table>
+					</div>	
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">
+							<tr><td><a href="#" target="_blank" class="importent-links">journals</a></td></tr>
+						</table>
+					</div>
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">
+							<tr><td><a href="#" target="_blank" class="importent-links">summer trainig<br> 1st year</a></td></tr>
+						</table>
+					</div>
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">
+							<tr><td><a href="#" target="_blank" class="importent-links">summer trainig<br> 2nd year</a></td></tr>
+						</table>
+					</div>	
+				</div>
+				
+				<br><div class="row"><br>
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">		
+							<tr><td><a href="#" target="_blank" class="importent-links">summer trainig <br>3rd year</a></td></tr>
+						</table>
+					</div>
+					<div class="col-sm-2">
+						<table class="table table-borderless w3-card">		
+							<tr><td><a href="#" target="_blank" class="importent-links">admission <br>formS</a></td></tr>
+						</table>
+					</div>
+				</div>
+		</section>
+		
+		<section class="event text-center" style="padding:20px;"><br>
+			<br><div class="container"><br>
+				<h2><b>Events</b></h2>
+				<center><hr class="divider"></center>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-4">
+								<table class="table table-borderless w3-card">		
+									<tr><td> 25 <br>jun</td></tr>
+								</table>
+							</div>
+							<div class="col-sm-8">
+								<a href="#" target="_blank"><h4>Dr.Ramchandra speech</h4></a>
+								 <ul class="list-inline list-inline-xs">
+                                            <li>Added On: <span class="inset-left-10 text-dark text-middle">Jun 23, 2020</span></li>
+                                  </ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-4">
+								<table class="table table-borderless w3-card">		
+									<tr><td> 13<br>jun </td></tr>
+								</table>
+							</div>
+							<div class="col-sm-8">
+								<a href="#" target="_blank"><h4>Online webniar</h4></a>
+								 <ul class="list-inline list-inline-xs">
+                                            <li>Added On: <span class="inset-left-10 text-dark text-middle">Jun 13, 2020</span></li>
+                                  </ul>
+							</div>
+						</div>
+					</div>
+				</div><br>
+				
+				<br><div class="row"><br>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-4">
+								<table class="table table-borderless w3-card">		
+									<tr><td> 14<br>jun </td></tr>
+								</table>
+							</div>
+							<div class="col-sm-8">
+								<a href="#" target="_blank"><h4>Dr.Ramchandra speech</h4></a>
+								 <ul class="list-inline list-inline-xs">
+                                            <li>Added On: <span class="inset-left-10 text-dark text-middle">Jun 23, 2020</span></li>
+                                  </ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-4">
+								<table class="table table-borderless w3-card">		
+									<tr><td> 6 <br>jun</td></tr>
+								</table>
+							</div>
+							<div class="col-sm-8">
+								<a href="#" target="_blank"><h4>Online webniar</h4></a>
+								 <ul class="list-inline list-inline-xs">
+                                            <li>Added On: <span class="inset-left-10 text-dark text-middle">Jun 13, 2020</span></li>
+                                  </ul>
+							</div>
+						</div>
+					</div>
+				</div><br>
+				
+				<br><div class="event_button"><a href="#" class="btn btn-icon-right btn-primary"><span class="icon fa-arrow-right">View All Events</span></a></div>
+			</div>
+		</section><br>
+		
+		<br><section class="media" style="padding:20px;">
+			<div class="container text-center"><br>
+				<h2 class="text-bold"><b>Media</b></h2>
+				<center><hr class="divider"></center>
+				<div class="row">
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>chairman's word on lockdown</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 20 july 2020</span></i></td></tr>
+							</table>
+						</div>	
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>yoga day online participent</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 21 jun 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>exam will postpon</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 15 may 2020</span></i></td></tr>
+							</table>
+						</div>
+						<div class="col-sm-3">
+							<table class="table table-borderless w3-card">
+								<tr><td><a href="#"><h5>news about covid-19</h5></a>
+								<i class="fa fa-calendar"><span class="text-middle" style="text-style:italic;"> 1 april 2020</span></i></td></tr>
+							</table>
+						</div>
+				</div><br>
+				<br><div class="event_button"><a href="#" class="btn btn-icon-right btn-primary"><span class="icon ">View All News</span></a></div>
+			</div>
+		</section><br>
+		
+		<section class="links" ><br>
+			<br><div class="container"><br>
+				<div class="row">
+					<div class="col-sm-4">
+						<h4>Useful Links<h4>
+						<hr class="divider d">
+						<div class="row">
+							<div class="col-sm-6">
+								<a href="#" ><h6>T.E.Q.I.P.</h6></a>
+								<a href="#" ><h6>R.T.I.</h6></a>
+								<a href="#" ><h6>T.E.Q.I.P.</h6></a>
+								<a href="#" ><h6>E.C.G.</h6></a>
+								<a href="#" ><h6>R.M.C.A.A.T.</h6></a>
+								<a href="#" ><h6>Digital Library</h6></a>
+							</div>
+							<div class="col-sm-6">
+								<a href="#" ><h6>T.E.Q.I.P.</h6></a>
+								<a href="#" ><h6>R.T.I.</h6></a>
+								<a href="#" ><h6>T.E.Q.I.P.</h6></a>
+								<a href="#" ><h6>E.C.G.</h6></a>
+								<a href="#" ><h6>R.M.C.A.A.T.</h6></a>
+								<a href="#" ><h6>Digital Library</h6></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<h4>Grievance Redressal<h4>
+						<hr class="divider d">
+						<div class="row">
+							<div class="col-sm-12">
+								<a href="#" ><h6>T.E.Q.I.P.</h6></a>
+								<a href="#" ><h6>R.T.I.</h6></a>
+								<a href="#" ><h6>T.E.Q.I.P.</h6></a>
+								<a href="#" ><h6>E.C.G.</h6></a>
+								<a href="#" ><h6>R.M.C.A.A.T.</h6></a>
+								<a href="#" ><h6>Digital Library</h6></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<h4>Nodal Officer(Website)<h4>
+						<hr class="divider d">
+						<div class="row">
+							<div class="col-sm-12">
+								<p>Bhadu Shahab</p>
+								<p>Assitant Profeser</p>
+								<p>Department of CS<p>
+								<p><span class="glyphicon glyphicon-email"> Admin123@gmail.com</span></p>
+								<br><br>
+								<p>Offical Social Media:</p>
+								<ul class="list-inline list-inline-xs list-inline-madison">
+									<li><a href="#" class="icon icon-xxs fa fa-facebook icon-circle icon-gray-light-filled" target="_blank" ></a></li>
+									<li><a href="#" class="icon icon-xxs fa fa-instagram icon-circle icon-gray-light-filled" target="_blank" ></a></li>
+									<li><a href="#" class="icon icon-xxs fa fa-youtube-play icon-circle icon-gray-light-filled" target="_blank" ></a></li>
+									<li><a href="#" class="icon icon-xxs fa fa-twitter icon-circle icon-gray-light-filled" target="_blank" ></a></li>
+									<li><a href="#" class="icon icon-xxs fa fa-linkedin icon-circle icon-gray-light-filled" target="_blank" ></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<div class="bg-madison as">
+			<div class="row" style="padding:20px;">
+				<div class="col-sm-12 text-center" ><p>   &copy; <span class="copyright-year">2020</span> All Rights Resvered <a href="#" target="_blank">Terms of Use </a>and <a href="#" target="_blank">Disclamer</a></p></div>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
